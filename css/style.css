@@ -2,6 +2,10 @@
     max-width: 100%;
 }
 
+ul {
+    list-style-type: none;
+}
+
 .ms_header {
     background-color:rgb(44 62 80) ;
     width: 100%;
@@ -21,3 +25,9 @@
     width: 70%;
     text-align: center;
 }
+
+.ms_about_cont_child,
+.ms_contact_child {
+    width: 70%;
+}
+
