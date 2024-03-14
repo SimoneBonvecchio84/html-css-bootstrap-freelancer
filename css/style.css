@@ -44,18 +44,24 @@ ul {
 }
 
 .ms_cont-hero {
-   padding-top:100px; 
+    
    width: 170px;
    /*debug*/
    height: 170px;
    
 }
 
-
 .ms_cont-hero-text {
     width: 70%;
     max-width:300px;
     text-align: center;
+}
+
+.ms_hr {
+   width: 30%;
+   max-width: 100px; 
+   border: 1px solid white;
+   background-color: white;
 }
 /**************************************************
 **************************************************
