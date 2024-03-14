@@ -27,6 +27,7 @@ ul {
 .ms_header {
     background-color:var(--header-bg) ;
     width: 100%;
+    z-index: 99999;
     
 }
 
@@ -77,6 +78,24 @@ ul {
 
 /*About Section*/
 .ms_about_cont {
+    background-color: var(--hero-and-about-bg);
+}
+
+/**************************************************
+**************************************************
+**************************************************/
+
+/*Contact*/
+
+.ms_input,
+.ms_textarea {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0%;
+}
+
+.ms_btn_color {
     background-color: var(--hero-and-about-bg);
 }
 
