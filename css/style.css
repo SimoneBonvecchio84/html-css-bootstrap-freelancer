@@ -1,6 +1,7 @@
-.img {
+/*RESET*/
+/* .img {
     max-width: 100%;
-}
+} */
 
 ul {
     list-style-type: none;
@@ -8,14 +9,40 @@ ul {
     padding: 0;
 }
 
+/************************************************
+*************************************************
+************************************************/
+
+/*CUSTOM PROPERTIES*/
+ :root {
+    --header-bg:rgb(44 62 80);
+    --hero-and-about-bg:rgb(26 188 156);
+    --footer-top-bg:rgb(58 84 109);
+ }
+
+/************************************************
+*************************************************
+************************************************/
+/*header*/
 .ms_header {
-    background-color:rgb(44 62 80) ;
+    background-color:var(--header-bg) ;
     width: 100%;
-    height: 50px;
+    
 }
-.container-fluid {
-    padding-top: 80px;
+
+.ms_icon-hamb {
+    color: white;
+    
 }
+
+/************************************************
+*************************************************
+************************************************/
+.ms_hero {
+    margin-top: 56px;
+    background-color: var(--hero-and-about-bg);
+}
+
 .ms_cont-hero {
    padding-top:100px; 
    width: 170px;
@@ -23,9 +50,22 @@ ul {
    height: 170px;
    
 }
+
+
 .ms_cont-hero-text {
     width: 70%;
+    max-width:300px;
     text-align: center;
+}
+/**************************************************
+**************************************************
+**************************************************/
+
+/*Tablet and Desktop Hero text cont*/
+@media screen and (min-width:768px) {
+    .ms_cont-hero-text {
+        max-width:600px ;
+    }
 }
 
 .ms_about_cont_child,
