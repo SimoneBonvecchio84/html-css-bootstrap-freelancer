@@ -9,6 +9,9 @@ ul {
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+}
 /************************************************
 *************************************************
 ************************************************/
@@ -97,6 +100,37 @@ ul {
 
 .ms_btn_color {
     background-color: var(--hero-and-about-bg);
+    
+}
+
+/**************************************************
+**************************************************
+**************************************************/
+
+/*FOOTER*/
+.ms_footer {
+    background-color: var(--footer-top-bg);
+}
+
+.ms_li_icons {
+    display: inline-block;
+    border: 1px solid white;
+    width: 30px;
+    height: 30px;
+    line-height: 25px;
+    border-radius: 50%;
+}
+
+.fa-brands {
+    font-size: .8rem;
+}
+
+.ms_footer_link {
+    color: var(--hero-and-about-bg);
+}
+
+.ms_copyright_cont {
+    background-color: var(--header-bg);
 }
 
 /*Tablet and Desktop Hero text cont*/
