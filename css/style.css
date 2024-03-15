@@ -1,3 +1,4 @@
+/*RESET*/
 ul {
     list-style-type: none;
     margin: 0;
@@ -38,11 +39,7 @@ a {
 }
 
 .ms_cont-hero {
-    
-   width: 170px;
-   /*debug*/
-   height: 170px;
-   
+    width: 170px;   
 }
 
 .ms_cont-hero-text {
